@@ -89,6 +89,7 @@
 .btn {
     background-color: var(--accent-cl);
     color: var(--white-txt-cl);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30 / 16);   
@@ -110,6 +111,7 @@
 .btn-two {
     color: var(--secondary-txt-cl);
     background-color: var(--bgr-accent-cl);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
@@ -149,7 +151,7 @@
 
 .features-subtitle {
     color:var(--bgr-secondary-cl);
-    ont-weight: 700;
+    font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
