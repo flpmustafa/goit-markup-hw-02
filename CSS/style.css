@@ -19,10 +19,12 @@
 
 /* body */
 
-.page {
+body {
     font-family: var(--main-font);
     color: var(--mine-txt-cl);
     background-color: var(--bgr-mine-cl);
+    font-size: 14px;
+    letter-spacing: 00.03em;
 }
 
 .page-header {
@@ -76,6 +78,7 @@
 .hero-section {
     background-color: #2F303A;
 }
+
 .hero-title {
     color: var(--white-txt-cl);
     font-weight: 900;
@@ -89,6 +92,7 @@
 .btn {
     background-color: var(--accent-cl);
     color: var(--white-txt-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -104,8 +108,9 @@
 
 .btn:hover,
 .btn:focus {
-    color: var(--accent-cl);
-    background-color: var(--bgr-mine-cl);
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;  
 }
 
 .btn-two {
@@ -144,10 +149,10 @@
 
 /* features section */
 
-.features-title, 
+/*.features-title, 
 .project-title {
     display: none;
-}
+}*/
 
 .features-subtitle {
     color:var(--bgr-secondary-cl);
@@ -211,6 +216,20 @@
 
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
 /* page portfolio */
 
 .portfolio-title {
@@ -229,7 +248,7 @@
 
 .mine-portfolio li {
     border: 1px solid var(--portfolio-card-cl);
-    width: 320px;
+    width: 370px;
 }
     
 /* footer*/
